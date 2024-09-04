@@ -9,11 +9,20 @@ import styles from "./Work.module.sass";
 type WorkProps = {};
 
 const Work = ({}: WorkProps) => (
-    <div className={styles.work}>
+    <div className={cn(styles.work, styles.center)}>
         <div className={cn("container", styles.container)}>
             <div className={styles.head}>
-                <Label title="START EARNING" />
+                <img src="/images/illustration.png" className={cn(styles.centeredImage, styles.center)} alt="Centered Image" />
+                <Label title="COMING SOON" />
                 <h2 className={cn("h2", styles.title)}>
+                    Airdrop
+                </h2>
+                <div className={styles.info}>Airdrop coming soon copy</div>
+        
+            </div>
+            <div className={styles.head}>
+                <Label title="START EARNING" />
+                <h2 className={cn("h2", styles.title)}>r
                     PiP Hedge Fund: A Telegram Airdrop
                 </h2>
             </div>
