@@ -21,7 +21,7 @@ const Hero = ({}: HeroProps) => (
                     title="JOIN OUR AIRDROP"
                     href="https://ui8-bento-elements.vercel.app/"
                 />
-                <div className={styles.version}>v1.0.1 – macOS 12+</div>
+                <div className={styles.version}>Text</div>
             </div>
             <div className={styles.foot}>
                 <div className={styles.description}>

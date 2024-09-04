@@ -33,7 +33,7 @@ const Details = ({}: DetailsProps) => (
                 <Item
                     className={styles.item}
                     title="PiP Token"
-                    content="Create new lists and add items in seconds with our streamlined interface"
+                    content="Join waitlist (maybe infographic on how to purchase)"
                     icon="/images/plus.svg"
                     gradient="/images/gradient-1.png"
                 >
@@ -43,7 +43,7 @@ const Details = ({}: DetailsProps) => (
                     className={styles.item}
                     classOvarlay={styles.overlay}
                     title="PiP Trader"
-                    content="Drag, drop, and rearrange items effortlessly to keep your lists perfectly ordered"
+                    content="Step into the world of PiP Trader, a strategy and management simulator game that’s been meticulously crafted to challenge you to create and manage a financial empire within the ever-changing markets of the PiP World universe."
                     icon="/images/numbers.svg"
                     gradient="/images/gradient-2.png"
                 >
@@ -53,7 +53,17 @@ const Details = ({}: DetailsProps) => (
                     className={styles.item}
                     classOvarlay={styles.overlay}
                     title="PiP Adacemy"
-                    content="Access your lists anywhere, anytime - seamlessly synced across all your devices"
+                    content="complements the immersive gameplay of PiP Trader with a robust educational platform that simplifies complex financial concepts. Utilizing AI-powered adaptive learning, PiP Academy delivers content in structured, easy-to-understand modules, with friendly PiP characters guiding users through interactive lessons that bring theory to life."
+                    icon="/images/laptop.svg"
+                    gradient="/images/gradient-3.png"
+                >
+                    <Illustration3 />
+                </Item>
+                <Item
+                    className={styles.item}
+                    classOvarlay={styles.overlay}
+                    title="Stock Rise"
+                    content="The premier stock simulator game on Roblox is now proudly part of the PiP World ecosystem. This hyper-realistic trading simulator allows over 7.1 million players to experience the excitement of stock and cryptocurrency trading in a fun, safe, and educational environment. With real-time prices and a focus on risk assessment and strategic decision-making, StockRise empowers players to grow their virtual wealth while developing critical financial skills."
                     icon="/images/laptop.svg"
                     gradient="/images/gradient-3.png"
                 >
