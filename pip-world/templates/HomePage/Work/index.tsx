@@ -22,7 +22,7 @@ const Work = ({}: WorkProps) => (
             </div>
             <div className={styles.head}>
                 <Label title="START EARNING" />
-                <h2 className={cn("h2", styles.title)}>r
+                <h2 className={cn("h2", styles.title)}>
                     PiP Hedge Fund: A Telegram Airdrop
                 </h2>
             </div>
